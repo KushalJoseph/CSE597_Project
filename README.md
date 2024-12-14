@@ -6,8 +6,11 @@ The code is not mine, and completely belongs to authors of GitHub Link https://g
 
 To run this code:
 
+```
 pip install -r requirements.txt
+```
 
+```
 python src/blip_fine_tune_2.py \
    --dataset {'CIRR' or 'FashionIQ'} \
    --blip-model-name 'blip2_cir_align_prompt' \
@@ -20,3 +23,4 @@ python src/blip_fine_tune_2.py \
    --save-training \
    --save-best \
    --validation-frequency 1 
+```
