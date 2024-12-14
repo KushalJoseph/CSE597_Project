@@ -1,0 +1,418 @@
+save-memory: True
+save-memory-in: True
+/usr/local/lib/python3.10/dist-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Target pad with target_ratio = 1.25 preprocess pipeline is used
+FashionIQ val - ['dress'] dataset in relative mode initialized
+FashionIQ val - ['dress'] dataset in classic mode initialized
+FashionIQ val - ['toptee'] dataset in relative mode initialized
+FashionIQ val - ['toptee'] dataset in classic mode initialized
+FashionIQ val - ['shirt'] dataset in relative mode initialized
+FashionIQ val - ['shirt'] dataset in classic mode initialized
+FashionIQ train - ['dress', 'toptee', 'shirt'] dataset in relative mode initialized
+Training loop started
+[0/15] loss_itc: 0.538, loss_rtc: 0.876, loss_align: 0.115, : 100%|███████████████████████████████████████████████| 2250/2250 [21:03<00:00,  1.78it/s]
+extracting fashionIQ ['dress'] - val index features
+100% 60/60 [01:26<00:00,  1.44s/it]
+Compute FashionIQ ['dress'] validation predictions
+100% 127/127 [00:16<00:00,  7.77it/s]
+Compute FashionIQ ['dress'] validation metrics
+extracting fashionIQ ['toptee'] - val index features
+100% 84/84 [02:01<00:00,  1.45s/it]
+Compute FashionIQ ['toptee'] validation predictions
+100% 123/123 [00:18<00:00,  6.57it/s]
+Compute FashionIQ ['toptee'] validation metrics
+extracting fashionIQ ['shirt'] - val index features
+100% 100/100 [02:24<00:00,  1.44s/it]
+Compute FashionIQ ['shirt'] validation predictions
+100% 128/128 [00:21<00:00,  6.05it/s]
+Compute FashionIQ ['shirt'] validation metrics
+{
+    "dress_recall_at10": 36.53941452503204,
+    "dress_recall_at50": 59.742188453674316,
+    "toptee_recall_at10": 45.232024788856506,
+    "toptee_recall_at50": 68.58745813369751,
+    "shirt_recall_at10": 43.13051998615265,
+    "shirt_recall_at50": 62.26692795753479,
+    "average_recall_at10": 41.63398643334707,
+    "average_recall_at50": 63.53219151496887,
+    "average_recall": 52.583088974157974
+}
+[1/15] loss_itc: 0.267, loss_rtc: 0.676, loss_align: 0.016, : 100%|███████████████████████████████████████████████| 2250/2250 [21:09<00:00,  1.77it/s]
+extracting fashionIQ ['dress'] - val index features
+100% 60/60 [01:26<00:00,  1.45s/it]
+Compute FashionIQ ['dress'] validation predictions
+100% 127/127 [00:16<00:00,  7.70it/s]
+Compute FashionIQ ['dress'] validation metrics
+extracting fashionIQ ['toptee'] - val index features
+100% 84/84 [02:01<00:00,  1.45s/it]
+Compute FashionIQ ['toptee'] validation predictions
+100% 123/123 [00:18<00:00,  6.62it/s]
+Compute FashionIQ ['toptee'] validation metrics
+extracting fashionIQ ['shirt'] - val index features
+100% 100/100 [02:23<00:00,  1.44s/it]
+Compute FashionIQ ['shirt'] validation predictions
+100% 128/128 [00:21<00:00,  6.04it/s]
+Compute FashionIQ ['shirt'] validation metrics
+{
+    "dress_recall_at10": 35.59742271900177,
+    "dress_recall_at50": 59.593456983566284,
+    "toptee_recall_at10": 43.396225571632385,
+    "toptee_recall_at50": 69.50535178184509,
+    "shirt_recall_at10": 42.83611476421356,
+    "shirt_recall_at50": 62.90481090545654,
+    "average_recall_at10": 40.60992101828257,
+    "average_recall_at50": 64.00120655695598,
+    "average_recall": 52.30556378761928
+}
+[2/15] loss_itc: 0.212, loss_rtc: 0.594, loss_align: 0.008, : 100%|███████████████████████████████████████████████| 2250/2250 [21:08<00:00,  1.77it/s]
+extracting fashionIQ ['dress'] - val index features
+100% 60/60 [01:26<00:00,  1.45s/it]
+Compute FashionIQ ['dress'] validation predictions
+100% 127/127 [00:16<00:00,  7.72it/s]
+Compute FashionIQ ['dress'] validation metrics
+extracting fashionIQ ['toptee'] - val index features
+100% 84/84 [02:01<00:00,  1.45s/it]
+Compute FashionIQ ['toptee'] validation predictions
+100% 123/123 [00:18<00:00,  6.62it/s]
+Compute FashionIQ ['toptee'] validation metrics
+extracting fashionIQ ['shirt'] - val index features
+100% 100/100 [02:23<00:00,  1.44s/it]
+Compute FashionIQ ['shirt'] validation predictions
+100% 128/128 [00:21<00:00,  6.06it/s]
+Compute FashionIQ ['shirt'] validation metrics
+{
+    "dress_recall_at10": 38.62171471118927,
+    "dress_recall_at50": 65.04709720611572,
+    "toptee_recall_at10": 46.91483974456787,
+    "toptee_recall_at50": 71.1881697177887,
+    "shirt_recall_at10": 47.64474928379059,
+    "shirt_recall_at50": 68.44946146011353,
+    "average_recall_at10": 44.39376791318258,
+    "average_recall_at50": 68.22824279467265,
+    "average_recall": 56.31100535392761
+}
+[3/15] loss_itc: 0.174, loss_rtc: 0.545, loss_align: 0.006, : 100%|███████████████████████████████████████████████| 2250/2250 [21:05<00:00,  1.78it/s]
+extracting fashionIQ ['dress'] - val index features
+100% 60/60 [01:26<00:00,  1.45s/it]
+Compute FashionIQ ['dress'] validation predictions
+100% 127/127 [00:16<00:00,  7.75it/s]
+Compute FashionIQ ['dress'] validation metrics
+extracting fashionIQ ['toptee'] - val index features
+100% 84/84 [02:01<00:00,  1.45s/it]
+Compute FashionIQ ['toptee'] validation predictions
+100% 123/123 [00:18<00:00,  6.61it/s]
+Compute FashionIQ ['toptee'] validation metrics
+extracting fashionIQ ['shirt'] - val index features
+100% 100/100 [02:23<00:00,  1.44s/it]
+Compute FashionIQ ['shirt'] validation predictions
+100% 128/128 [00:21<00:00,  6.07it/s]
+Compute FashionIQ ['shirt'] validation metrics
+{
+    "dress_recall_at10": 39.51413035392761,
+    "dress_recall_at50": 65.54288268089294,
+    "toptee_recall_at10": 49.056604504585266,
+    "toptee_recall_at50": 73.94186854362488,
+    "shirt_recall_at10": 48.72424006462097,
+    "shirt_recall_at50": 67.90971755981445,
+    "average_recall_at10": 45.76499164104462,
+    "average_recall_at50": 69.13148959477742,
+    "average_recall": 57.44824061791102
+}
+[4/15] loss_itc: 0.151, loss_rtc: 0.505, loss_align: 0.005, : 100%|███████████████████████████████████████████████| 2250/2250 [21:06<00:00,  1.78it/s]
+extracting fashionIQ ['dress'] - val index features
+100% 60/60 [01:26<00:00,  1.45s/it]
+Compute FashionIQ ['dress'] validation predictions
+100% 127/127 [00:16<00:00,  7.73it/s]
+Compute FashionIQ ['dress'] validation metrics
+extracting fashionIQ ['toptee'] - val index features
+100% 84/84 [02:01<00:00,  1.45s/it]
+Compute FashionIQ ['toptee'] validation predictions
+100% 123/123 [00:18<00:00,  6.62it/s]
+Compute FashionIQ ['toptee'] validation metrics
+extracting fashionIQ ['shirt'] - val index features
+100% 100/100 [02:24<00:00,  1.44s/it]
+Compute FashionIQ ['shirt'] validation predictions
+100% 128/128 [00:21<00:00,  6.06it/s]
+Compute FashionIQ ['shirt'] validation metrics
+{
+    "dress_recall_at10": 39.61328566074371,
+    "dress_recall_at50": 63.063955307006836,
+    "toptee_recall_at10": 51.24936103820801,
+    "toptee_recall_at50": 74.19683933258057,
+    "shirt_recall_at10": 47.84102141857147,
+    "shirt_recall_at50": 69.0873384475708,
+    "average_recall_at10": 46.2345560391744,
+    "average_recall_at50": 68.78271102905273,
+    "average_recall": 57.50863353411357
+}
+[5/15] loss_itc: 0.130, loss_rtc: 0.464, loss_align: 0.004, : 100%|███████████████████████████████████████████████| 2250/2250 [21:10<00:00,  1.77it/s]
+extracting fashionIQ ['dress'] - val index features
+100% 60/60 [01:26<00:00,  1.45s/it]
+Compute FashionIQ ['dress'] validation predictions
+100% 127/127 [00:16<00:00,  7.72it/s]
+Compute FashionIQ ['dress'] validation metrics
+extracting fashionIQ ['toptee'] - val index features
+100% 84/84 [02:01<00:00,  1.45s/it]
+Compute FashionIQ ['toptee'] validation predictions
+100% 123/123 [00:18<00:00,  6.58it/s]
+Compute FashionIQ ['toptee'] validation metrics
+extracting fashionIQ ['shirt'] - val index features
+100% 100/100 [02:23<00:00,  1.44s/it]
+Compute FashionIQ ['shirt'] validation predictions
+100% 128/128 [00:21<00:00,  6.06it/s]
+Compute FashionIQ ['shirt'] validation metrics
+{
+    "dress_recall_at10": 40.109074115753174,
+    "dress_recall_at50": 64.30342197418213,
+    "toptee_recall_at10": 49.7195303440094,
+    "toptee_recall_at50": 73.68689179420471,
+    "shirt_recall_at10": 47.055935859680176,
+    "shirt_recall_at50": 68.79293322563171,
+    "average_recall_at10": 45.62818010648092,
+    "average_recall_at50": 68.92774899800618,
+    "average_recall": 57.277964552243546
+}
+[6/15] loss_itc: 0.113, loss_rtc: 0.429, loss_align: 0.003, : 100%|███████████████████████████████████████████████| 2250/2250 [21:11<00:00,  1.77it/s]
+extracting fashionIQ ['dress'] - val index features
+100% 60/60 [01:26<00:00,  1.45s/it]
+Compute FashionIQ ['dress'] validation predictions
+100% 127/127 [00:16<00:00,  7.72it/s]
+Compute FashionIQ ['dress'] validation metrics
+extracting fashionIQ ['toptee'] - val index features
+100% 84/84 [02:02<00:00,  1.45s/it]
+Compute FashionIQ ['toptee'] validation predictions
+100% 123/123 [00:18<00:00,  6.63it/s]
+Compute FashionIQ ['toptee'] validation metrics
+extracting fashionIQ ['shirt'] - val index features
+100% 100/100 [02:24<00:00,  1.44s/it]
+Compute FashionIQ ['shirt'] validation predictions
+100% 128/128 [00:21<00:00,  6.07it/s]
+Compute FashionIQ ['shirt'] validation metrics
+{
+    "dress_recall_at10": 41.99305772781372,
+    "dress_recall_at50": 65.7907783985138,
+    "toptee_recall_at10": 52.98317074775696,
+    "toptee_recall_at50": 76.1856198310852,
+    "shirt_recall_at10": 49.41118657588959,
+    "shirt_recall_at50": 71.29538655281067,
+    "average_recall_at10": 48.129138350486755,
+    "average_recall_at50": 71.0905949274699,
+    "average_recall": 59.609866638978325
+}
+[7/15] loss_itc: 0.097, loss_rtc: 0.393, loss_align: 0.003, : 100%|███████████████████████████████████████████████| 2250/2250 [21:06<00:00,  1.78it/s]
+extracting fashionIQ ['dress'] - val index features
+100% 60/60 [01:26<00:00,  1.45s/it]
+Compute FashionIQ ['dress'] validation predictions
+100% 127/127 [00:16<00:00,  7.70it/s]
+Compute FashionIQ ['dress'] validation metrics
+extracting fashionIQ ['toptee'] - val index features
+100% 84/84 [02:01<00:00,  1.45s/it]
+Compute FashionIQ ['toptee'] validation predictions
+100% 123/123 [00:18<00:00,  6.60it/s]
+Compute FashionIQ ['toptee'] validation metrics
+extracting fashionIQ ['shirt'] - val index features
+100% 100/100 [02:24<00:00,  1.44s/it]
+Compute FashionIQ ['shirt'] validation predictions
+100% 128/128 [00:21<00:00,  6.06it/s]
+Compute FashionIQ ['shirt'] validation metrics
+{
+    "dress_recall_at10": 42.68715977668762,
+    "dress_recall_at50": 67.12939739227295,
+    "toptee_recall_at10": 51.91228985786438,
+    "toptee_recall_at50": 75.36970973014832,
+    "shirt_recall_at10": 48.72424006462097,
+    "shirt_recall_at50": 68.35132241249084,
+    "average_recall_at10": 47.774563233057656,
+    "average_recall_at50": 70.28347651163737,
+    "average_recall": 59.02901987234752
+}
+[8/15] loss_itc: 0.077, loss_rtc: 0.361, loss_align: 0.003, : 100%|███████████████████████████████████████████████| 2250/2250 [21:08<00:00,  1.77it/s]
+extracting fashionIQ ['dress'] - val index features
+100% 60/60 [01:26<00:00,  1.45s/it]
+Compute FashionIQ ['dress'] validation predictions
+100% 127/127 [00:16<00:00,  7.76it/s]
+Compute FashionIQ ['dress'] validation metrics
+extracting fashionIQ ['toptee'] - val index features
+100% 84/84 [02:01<00:00,  1.45s/it]
+Compute FashionIQ ['toptee'] validation predictions
+100% 123/123 [00:18<00:00,  6.63it/s]
+Compute FashionIQ ['toptee'] validation metrics
+extracting fashionIQ ['shirt'] - val index features
+100% 100/100 [02:23<00:00,  1.44s/it]
+Compute FashionIQ ['shirt'] validation predictions
+100% 128/128 [00:20<00:00,  6.10it/s]
+Compute FashionIQ ['shirt'] validation metrics
+{
+    "dress_recall_at10": 43.777889013290405,
+    "dress_recall_at50": 69.5091724395752,
+    "toptee_recall_at10": 53.64609956741333,
+    "toptee_recall_at50": 76.54258012771606,
+    "shirt_recall_at10": 49.803727865219116,
+    "shirt_recall_at50": 71.19725346565247,
+    "average_recall_at10": 49.07590548197428,
+    "average_recall_at50": 72.41633534431458,
+    "average_recall": 60.746120413144425
+}
+[9/15] loss_itc: 0.075, loss_rtc: 0.342, loss_align: 0.002, : 100%|███████████████████████████████████████████████| 2250/2250 [21:02<00:00,  1.78it/s]
+extracting fashionIQ ['dress'] - val index features
+100% 60/60 [01:26<00:00,  1.45s/it]
+Compute FashionIQ ['dress'] validation predictions
+100% 127/127 [00:16<00:00,  7.75it/s]
+Compute FashionIQ ['dress'] validation metrics
+extracting fashionIQ ['toptee'] - val index features
+100% 84/84 [02:01<00:00,  1.45s/it]
+Compute FashionIQ ['toptee'] validation predictions
+100% 123/123 [00:18<00:00,  6.64it/s]
+Compute FashionIQ ['toptee'] validation metrics
+extracting fashionIQ ['shirt'] - val index features
+100% 100/100 [02:23<00:00,  1.44s/it]
+Compute FashionIQ ['shirt'] validation predictions
+100% 128/128 [00:20<00:00,  6.10it/s]
+Compute FashionIQ ['shirt'] validation metrics
+{
+    "dress_recall_at10": 44.4224089384079,
+    "dress_recall_at50": 70.10411620140076,
+    "toptee_recall_at10": 54.66598868370056,
+    "toptee_recall_at50": 76.64456963539124,
+    "shirt_recall_at10": 49.0677148103714,
+    "shirt_recall_at50": 70.11775970458984,
+    "average_recall_at10": 49.38537081082662,
+    "average_recall_at50": 72.28881518046062,
+    "average_recall": 60.837092995643616
+}
+[10/15] loss_itc: 0.059, loss_rtc: 0.305, loss_align: 0.002, : 100%|██████████████████████████████████████████████| 2250/2250 [21:02<00:00,  1.78it/s]
+extracting fashionIQ ['dress'] - val index features
+100% 60/60 [01:26<00:00,  1.45s/it]
+Compute FashionIQ ['dress'] validation predictions
+100% 127/127 [00:16<00:00,  7.76it/s]
+Compute FashionIQ ['dress'] validation metrics
+extracting fashionIQ ['toptee'] - val index features
+100% 84/84 [02:01<00:00,  1.45s/it]
+Compute FashionIQ ['toptee'] validation predictions
+100% 123/123 [00:18<00:00,  6.64it/s]
+Compute FashionIQ ['toptee'] validation metrics
+extracting fashionIQ ['shirt'] - val index features
+100% 100/100 [02:23<00:00,  1.44s/it]
+Compute FashionIQ ['shirt'] validation predictions
+100% 128/128 [00:20<00:00,  6.10it/s]
+Compute FashionIQ ['shirt'] validation metrics
+{
+    "dress_recall_at10": 46.603867411613464,
+    "dress_recall_at50": 70.35200595855713,
+    "toptee_recall_at10": 55.43090105056763,
+    "toptee_recall_at50": 77.10351943969727,
+    "shirt_recall_at10": 50.29440522193909,
+    "shirt_recall_at50": 71.68793082237244,
+    "average_recall_at10": 50.77639122804006,
+    "average_recall_at50": 73.04781874020894,
+    "average_recall": 61.9121049841245
+}
+[11/15] loss_itc: 0.057, loss_rtc: 0.288, loss_align: 0.002, : 100%|██████████████████████████████████████████████| 2250/2250 [21:02<00:00,  1.78it/s]
+extracting fashionIQ ['dress'] - val index features
+100% 60/60 [01:26<00:00,  1.45s/it]
+Compute FashionIQ ['dress'] validation predictions
+100% 127/127 [00:16<00:00,  7.75it/s]
+Compute FashionIQ ['dress'] validation metrics
+extracting fashionIQ ['toptee'] - val index features
+100% 84/84 [02:01<00:00,  1.45s/it]
+Compute FashionIQ ['toptee'] validation predictions
+100% 123/123 [00:18<00:00,  6.63it/s]
+Compute FashionIQ ['toptee'] validation metrics
+extracting fashionIQ ['shirt'] - val index features
+100% 100/100 [02:23<00:00,  1.44s/it]
+Compute FashionIQ ['shirt'] validation predictions
+100% 128/128 [00:20<00:00,  6.10it/s]
+Compute FashionIQ ['shirt'] validation metrics
+{
+    "dress_recall_at10": 46.207237243652344,
+    "dress_recall_at50": 70.55032253265381,
+    "toptee_recall_at10": 53.95206809043884,
+    "toptee_recall_at50": 77.15451121330261,
+    "shirt_recall_at10": 50.53974390029907,
+    "shirt_recall_at50": 71.58979177474976,
+    "average_recall_at10": 50.23301641146342,
+    "average_recall_at50": 73.09820850690205,
+    "average_recall": 61.66561245918274
+}
+[12/15] loss_itc: 0.053, loss_rtc: 0.269, loss_align: 0.002, : 100%|██████████████████████████████████████████████| 2250/2250 [21:04<00:00,  1.78it/s]
+extracting fashionIQ ['dress'] - val index features
+100% 60/60 [01:26<00:00,  1.45s/it]
+Compute FashionIQ ['dress'] validation predictions
+100% 127/127 [00:16<00:00,  7.74it/s]
+Compute FashionIQ ['dress'] validation metrics
+extracting fashionIQ ['toptee'] - val index features
+100% 84/84 [02:02<00:00,  1.45s/it]
+Compute FashionIQ ['toptee'] validation predictions
+100% 123/123 [00:18<00:00,  6.64it/s]
+Compute FashionIQ ['toptee'] validation metrics
+extracting fashionIQ ['shirt'] - val index features
+100% 100/100 [02:23<00:00,  1.44s/it]
+Compute FashionIQ ['shirt'] validation predictions
+100% 128/128 [00:20<00:00,  6.11it/s]
+Compute FashionIQ ['shirt'] validation metrics
+{
+    "dress_recall_at10": 46.703025698661804,
+    "dress_recall_at50": 70.45116424560547,
+    "toptee_recall_at10": 54.71698045730591,
+    "toptee_recall_at50": 77.51147150993347,
+    "shirt_recall_at10": 50.78508257865906,
+    "shirt_recall_at50": 72.66928553581238,
+    "average_recall_at10": 50.73502957820892,
+    "average_recall_at50": 73.54397376378377,
+    "average_recall": 62.139501670996346
+}
+[13/15] loss_itc: 0.051, loss_rtc: 0.258, loss_align: 0.002, : 100%|██████████████████████████████████████████████| 2250/2250 [21:03<00:00,  1.78it/s]
+extracting fashionIQ ['dress'] - val index features
+100% 60/60 [01:26<00:00,  1.45s/it]
+Compute FashionIQ ['dress'] validation predictions
+100% 127/127 [00:16<00:00,  7.74it/s]
+Compute FashionIQ ['dress'] validation metrics
+extracting fashionIQ ['toptee'] - val index features
+100% 84/84 [02:01<00:00,  1.45s/it]
+Compute FashionIQ ['toptee'] validation predictions
+100% 123/123 [00:18<00:00,  6.64it/s]
+Compute FashionIQ ['toptee'] validation metrics
+extracting fashionIQ ['shirt'] - val index features
+100% 100/100 [02:23<00:00,  1.44s/it]
+Compute FashionIQ ['shirt'] validation predictions
+100% 128/128 [00:20<00:00,  6.10it/s]
+Compute FashionIQ ['shirt'] validation metrics
+{
+    "dress_recall_at10": 46.703025698661804,
+    "dress_recall_at50": 70.74863910675049,
+    "toptee_recall_at10": 55.43090105056763,
+    "toptee_recall_at50": 77.81744003295898,
+    "shirt_recall_at10": 50.93228816986084,
+    "shirt_recall_at50": 72.5220799446106,
+    "average_recall_at10": 51.022071639696755,
+    "average_recall_at50": 73.69605302810669,
+    "average_recall": 62.35906233390172
+}
+[14/15] loss_itc: 0.045, loss_rtc: 0.256, loss_align: 0.002, : 100%|██████████████████████████████████████████████| 2250/2250 [21:04<00:00,  1.78it/s]
+extracting fashionIQ ['dress'] - val index features
+100% 60/60 [01:26<00:00,  1.45s/it]
+Compute FashionIQ ['dress'] validation predictions
+100% 127/127 [00:16<00:00,  7.74it/s]
+Compute FashionIQ ['dress'] validation metrics
+extracting fashionIQ ['toptee'] - val index features
+100% 84/84 [02:01<00:00,  1.45s/it]
+Compute FashionIQ ['toptee'] validation predictions
+100% 123/123 [00:18<00:00,  6.64it/s]
+Compute FashionIQ ['toptee'] validation metrics
+extracting fashionIQ ['shirt'] - val index features
+100% 100/100 [02:24<00:00,  1.44s/it]
+Compute FashionIQ ['shirt'] validation predictions
+100% 128/128 [00:20<00:00,  6.10it/s]
+Compute FashionIQ ['shirt'] validation metrics
+{
+    "dress_recall_at10": 46.752601861953735,
+    "dress_recall_at50": 70.84779143333435,
+    "toptee_recall_at10": 55.328911542892456,
+    "toptee_recall_at50": 77.61346101760864,
+    "shirt_recall_at10": 50.98135471343994,
+    "shirt_recall_at50": 72.71835207939148,
+    "average_recall_at10": 51.02095603942871,
+    "average_recall_at50": 73.72653484344482,
+    "average_recall": 62.37374544143677
+}
