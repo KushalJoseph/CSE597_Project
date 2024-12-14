@@ -2,7 +2,7 @@
 
 This is the repository for my final project for course CSE 597: Vision and Language.
 
-The code is not mine, and completely belongs to authors of GitHub Link https://github.com/chunmeifeng/SPRC, and the paper "Yang Bai, Xinxing Xu, Yong Liu, Salman Khan, Fahad Khan, Wangmeng Zuo, Rick Siow Mong Goh, Chun-Mei Feng. \textit{Sentence Level Prompts benefit Composed Image Retrieval". 
+**The code is NOT mine**, and completely belongs to **authors of GitHub Link** https://github.com/chunmeifeng/SPRC, and the paper "Yang Bai, Xinxing Xu, Yong Liu, Salman Khan, Fahad Khan, Wangmeng Zuo, Rick Siow Mong Goh, Chun-Mei Feng. Sentence Level Prompts benefit Composed Image Retrieval". 
 
 To run this code:
 
